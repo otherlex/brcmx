@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoyo - Banco Azteca</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-bg: #0a0a0a;
+            --accent-color: #00f2ea;
+            --text-color: #ffffff;
+            --glass: rgba(255, 255, 255, 0.08);
+        }
+
+        body {
+            background-color: var(--primary-bg);
+            background-image: radial-gradient(circle at center, #1a1a2e 0%, #0f0f0f 100%);
+            color: var(--text-color);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .donation-card {
+            background: var(--glass);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 25px;
+            max-width: 350px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .icon-heart {
+            font-size: 3rem;
+            color: #ff007a;
+            margin-bottom: 20px;
+            animation: beat 1.2s infinite;
+        }
+
+        @keyframes beat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        .bank-info {
+            background: rgba(0, 242, 234, 0.1);
+            border: 1px dashed var(--accent-color);
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .bank-name {
+            display: block;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent-color);
+            margin-bottom: 10px;
+        }
+
+        .account-number {
+            font-size: 1.4rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: #fff;
+        }
+
+        .copy-hint {
+            display: block;
+            font-size: 0.7rem;
+            margin-top: 10px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="donation-card">
+        <i class="fas fa-heart icon-heart"></i>
+        
+        <p>Para adquirir mi contenido debes de seguir los siguiente:
+            <br>
+            <br>
+            <br> Realiza la transferencia por la cantidad acordada a mi cuenta de banco azteca, no te pide nombre de beneficiario pero en caso de que lo requiera solo ponle " Brenda RC"
+
+            <br>
+            <br>
+            <br>
+            Es importante que en el concepto le pongas DONATIVO + TU NOMBRE
+            <br>
+            (ejemplo: Donativo Alex)
+            <br>
+            Esto es para poder ubicar tu pago en mi banca electrónica.
+            <br>
+            <br>
+            <br>
+            
+            
+            
+            <strong>Banco Azteca</strong>:</p>
+
+        <div class="bank-info">
+            <span class="bank-name">Cuenta CLABE</span>
+            <span class="account-number">127180016178981246</span> <span class="copy-hint">(Mantén presionado para copiar)</span>
+        </div>
+
+        <div class="bank-info">
+            <span class="bank-name">Número de cuenta</span>
+            <span class="account-number">95461617898124</span> <span class="copy-hint">(Mantén presionado para copiar)</span>
+        </div>
+
+        <div class="bank-info">
+            <span class="bank-name">Número de Tarjeta</span>
+            <span class="account-number">4027665879746874</span> <span class="copy-hint">(Mantén presionado para copiar)</span>
+        </div>
+       <br>
+
+        Por último envía tu comprobante en nuestra conversación de telegram para que yo pueda ubicarlo y listo! 
+        <br>
+        <BR> DISFRUTA MI CONTENIDO EXCLUSIVO!
+
+            <a href="index.html" class="btn-regresar">
+                <i class="fas fa-arrow-left"></i> Regresar al inicio
+            </a>
+            
+            <style>
+                .btn-regresar {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    margin-top: 30px;
+                    padding: 12px 25px;
+                    background: rgba(255, 255, 255, 0.05); /* Efecto cristal */
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(10px);
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    border-radius: 50px;
+                    color: #ffffff;
+                    text-decoration: none;
+                    font-size: 0.9rem;
+                    font-weight: 500;
+                    transition: all 0.3s ease;
+                }
+            
+                .btn-regresar:active {
+                    transform: scale(0.95);
+                    background: rgba(255, 255, 255, 0.15);
+                    border-color: var(--accent-color); /* Usará el color cian que definimos antes */
+                }
+            
+                .btn-regresar i {
+                    font-size: 0.8rem;
+                }
+            </style>
+
+
+    </div>
+
+
+  
+    
+
+</body>
+</html>
